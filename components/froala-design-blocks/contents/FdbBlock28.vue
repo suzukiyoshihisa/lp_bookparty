@@ -1,14 +1,13 @@
-<template lang="pug">
-    // Contents 28
-    section.fdb-block.bg-dark
-        .container
-            .row.text-center
-                .col-12
-                    h1
-                        | Made with
-                        i.fas.fa-heart.text-danger
-                        |  by Froala
-
+<template>
+  <section class="fdb-block bg">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1 class="caption">腹を割って深い話をできる<br>仲間が欲しい</h1>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -18,5 +17,12 @@
 </script>
 
 <style scoped lang="scss">
+.bg {
+  background: #DAEFFF;
+}
+
+.caption {
+  font-weight: bold;
+}
 
 </style>

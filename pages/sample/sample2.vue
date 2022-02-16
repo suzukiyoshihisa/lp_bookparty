@@ -1,5 +1,5 @@
 <template lang="pug">
-    div
+div
         HeadersFdbBlock9
         ContentsFdbBlock3
         FeaturesFdbBlock26
@@ -9,7 +9,6 @@
         CallToActionFdbBlock3
         ContactFdbBlock4
         FootersFdbBlock9
-
 </template>
 
 <script>
