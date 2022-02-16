@@ -1,9 +1,9 @@
 <template>
-  <section class="fdb-block bg">
+  <section class="bg">
     <div class="container">
       <div class="row text-center">
         <div class="col-12">
-          <h1 class="caption">腹を割って深い話をできる<br>仲間が欲しい</h1>
+          <h1 class="caption">本と出会う、仲間と出会う</h1>
         </div>
       </div>
     </div>
@@ -18,6 +18,7 @@
 
 <style scoped lang="scss">
 .bg {
+  padding: 90px 0 180px;
   background: #DAEFFF;
 }
 

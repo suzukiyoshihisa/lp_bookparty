@@ -16,5 +16,8 @@ div
 </script>
 
 <style>
-
+section.fdb-block {
+  padding: 0px;
+  margin-bottom: 90px;
+}
 </style>
