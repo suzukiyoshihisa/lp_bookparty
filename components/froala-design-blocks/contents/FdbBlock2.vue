@@ -1,16 +1,16 @@
-<template lang="pug">
-    // Contents 2
-    section.fdb-block
-        .container
-            .row.justify-content-center
-                .col.col-md-8.text-center
-                    p.lead
-                        | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in
-                        a(href='https://www.froala.com') Bookmarksgrove
-                        |  right at the coast of the Semantics, a large language
-                        |               ocean.
-
-
+<template>
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+          <p class="lead">
+            このページでは、読書会に参加してみたい…とお悩み中の方の不安点を解消し
+            スムーズに会参加を行えるためのお手伝いをしたいと考えております☺️
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -20,5 +20,7 @@
 </script>
 
 <style scoped lang="scss">
-
+.container {
+  margin: 30px auto 0px;
+}
 </style>

@@ -1,11 +1,13 @@
-<template lang="pug">
-    // Headers 12
-    header.bg-dark
-        .container.text-center
-            nav.navbar
-                a.ml-auto.mr-auto(href='https://www.froala.com')
-                    img(src='@/node_modules/froala-design-blocks/src/imgs/logo.png', height='30', alt='image')
-
+<template>
+  <header class="bg">
+    <div class="container text-center">
+      <nav class="navbar">
+        <a class="ml-auto mr-auto" href="#">
+          <img src="/images/home/logo.png" height='80' alt='新宿読書会のロゴ'>
+        </a>
+      </nav>
+    </div>
+  </header>
 </template>
 
 <script>
@@ -15,5 +17,11 @@
 </script>
 
 <style scoped lang="scss">
+  .bg {
+    background-color: #55B5C6;
+  }
 
+  .navbar {
+    padding: 15px 0;
+  }
 </style>

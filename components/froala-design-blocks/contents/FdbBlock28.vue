@@ -1,14 +1,13 @@
-<template lang="pug">
-    // Contents 28
-    section.fdb-block.bg-dark
-        .container
-            .row.text-center
-                .col-12
-                    h1
-                        | Made with
-                        i.fas.fa-heart.text-danger
-                        |  by Froala
-
+<template>
+  <section class="bg">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1 class="caption">本と出会う、仲間と出会う</h1>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -18,5 +17,13 @@
 </script>
 
 <style scoped lang="scss">
+.bg {
+  padding: 90px 0 180px;
+  background: #DAEFFF;
+}
+
+.caption {
+  font-weight: bold;
+}
 
 </style>
